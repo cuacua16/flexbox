@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(5, 37, 37);
+  margin: 0;
+  padding: 0.8rem 0;
+}
+header,
+main {
+  display: flex;
+  background-color: rgb(36, 73, 73);
+  margin: 1rem auto;
+  width: 80%;
+  justify-content: space-around;
+  padding: 0.9rem;
+}
+main {
+  height: 300px;
+}
+.item {
+  color: white;
+  background-color: rgb(79, 139, 78);
+  flex-grow: 1;
+  padding: 0.5rem 4rem;
+  margin: 0 4px;
+}
+
+.div {
+  background-color: aliceblue;
+  margin: 0 4px;
+  padding: 1rem 1rem;
+  flex-basis: 20%;
+  flex-grow: 1;
+}
+.div1 {
+  order: -1;
+  flex-grow: 5;
+}
+p {
+  padding: 1rem 0 0;
+}
